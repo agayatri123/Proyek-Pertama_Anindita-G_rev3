@@ -34,17 +34,17 @@ Karena dataset tersebut belum tersedia, maka diambil data yang ada dari Umair Zi
 https://www.kaggle.com/datasets/stealthtechnologies/predict-purity-and-price-of-honey 
 
 - Dalam dataset terdiri dari 11 column dengan jenis datanya masing-masing sbb :
-![alt text](image-5.png)
+<img width="232" alt="image-5" src="https://github.com/user-attachments/assets/e2de22f8-c3f9-4121-8f5a-010717dfee6b">
 
 - Berikut adalah sebaran nilai per column datanya:
-![alt text](image.png)
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/d2baad17-6178-482e-b13b-740654ba6131">
 
 - Berikut hasilnya setelah data di-drop:
-![alt text](image-8.png)
+<img width="363" alt="image-8" src="https://github.com/user-attachments/assets/e94523fe-3c2e-452d-99af-2dfcf6c7ddc2">
 
 - Ternyata variable EC, F dan G memiliki korelasi NOL atau mendekati itu sehingga perlu di-drop seperti bukti 
 Correlation Matrix untuk Fitur Numerik pada gambar di bawah ini:
-![alt text](image-7.png)
+<img width="409" alt="image-7" src="https://github.com/user-attachments/assets/5588ccb8-ef53-476d-a249-c2da47c8d0d6">
 
 - Dengan penjelasan tiap variable sbb :
     - CS (Color Score): Menunjukkan nilai warna dari sample madu berkisar dari 1.0 hingga 10.0. 
@@ -66,10 +66,11 @@ Correlation Matrix untuk Fitur Numerik pada gambar di bawah ini:
 CS, Density, WC, pH, EC, F, G, Viscosity, Purity & Price
 
 Ini terbukti dari hasil run coding. ** Tidak terdapat missing data (nilai nol/kosong) sbb** : 
-![alt text](image-6.png) 
+
+<img width="238" alt="image-6" src="https://github.com/user-attachments/assets/509a1df6-aa3e-4382-8069-db0e65a5449f">
 
 - **Tidak terdapat data outliers** dgn contoh bukti sbb:
-![alt text](image-1.png)
+<img width="346" alt="image-1" src="https://github.com/user-attachments/assets/af944b30-6075-42d8-8475-8819325ed500">
 
 ## DATA PREPARATION
 Teknik yang digunakan adalah Exploratory data analysis (EDA).
@@ -83,13 +84,14 @@ Sehingga walau dilakukan coding: drop baris yang memiliki nilai nol maka hasil t
 Ini artinya ketiga nya paling tidak memiliki korelasi sehingga perlu di-drop.
 
 - Lalu variable Pollen_analysis di-one hot encoder karena bukan berupa angka. Berikut gambar table hasil one-hot-encoder.
-![alt text](image-9.png)
+<img width="907" alt="image-9" src="https://github.com/user-attachments/assets/d3e9234d-567d-4d0f-b626-c9d938ac74a4">
+
 
 - Kemudian dataset dibagi menjadi 2 :
 X (variable input): CS, Density, WC, pH, EC, F, G, Viscosity & Price
 y (variable target): Purity
 - Kemudian data distandarisasi, dengan hasil gambar seperti di bawah ini.
-![alt text](image-10.png) 
+<img width="346" alt="image-10" src="https://github.com/user-attachments/assets/6a8456b5-705a-4821-984e-2c640b100782">
 
 ## MODELLING
 - Dilakukan dataframe untuk analisis model
@@ -108,10 +110,10 @@ RF senilai nol koma sekian, KNN lebih dari 1 dan Boosting memiliki MSE tertinggi
 - Ternyata K-Nearest Neighbour memiliki nilai error terkecil sehingga dipilih menjadi kualitas terbaik.
 - Saat di-testing pun ternyata ketika y_true senilai 0,88 maka KNN senilai 0,88 pula (pembulatan 2 digit belakang koma).
 sedangkan RF bernilai 0,9 dan Boosting senilai 0,7.
-![alt text](image-2.png)
+<img width="346" alt="image-2" src="https://github.com/user-attachments/assets/f380ae83-8c18-4dd7-83f9-94dd0da451a6">
 Gambar hasil evaluasi ketiga Gambar
 
-![alt text](image-4.png)
+<img width="292" alt="image-4" src="https://github.com/user-attachments/assets/6124bfcd-e79f-4948-a4b7-9da44a77a556">
 Gambar hasil prediksi ketiga nya terhadap y_true
 
 ## KESIMPULAN
