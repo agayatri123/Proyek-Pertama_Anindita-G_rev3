@@ -125,8 +125,6 @@ Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boo
     - Parameter:
       - learning rate atau bobot yang diterapkan pada setiap regressor di tiap iterasi senilai 0,05.
       random state bernilai 55 untuk mengontrol random number generator yang digunakan.
-- Random Forest menggunakan n_estimator 50, dimana 50 itu adalah jumlah trees (pohon) di forest.
-- Boosting Algorithm menggunakan learning_rate=0.05 dimana 50 adalah bobot yang diterapkan pada setiap regressor di masing-masing proses iterasi boosting.
 
 Penulis sebenar nya ingin membuat modelling Feedforward Neural Network dengan Backpropagation berdasar pengalaman penulis meng-coding 
 di MATLAB dahulu dimana menghasilkan prediksi bagus untuk data fluktuatif sekalipun. Namun konsultasi dengan mentor, forum diskusi
