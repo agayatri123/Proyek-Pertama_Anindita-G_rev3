@@ -119,7 +119,9 @@ Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boo
     
 - Boosting Algoritm (AdaBoost or Adaptive Boosting)
     - Cara kerja:
-      - 
+      - Semua data latih memiliki weight atau bobot yang sama.
+        Tiap tahapan, model akan memeriksa apakah observasi yang dilakukan sudah benar.
+        Bobot bernilai lebih tinggi akan diberikan pada model yang salah shg akan dimasukkan ke dalam tahapan selanjutnya. Proses iteratif ini terus berlangsung hingga didapatkan model yang memiliki akurasi yang diharapkan.
     - Parameter:
       - learning rate atau bobot yang diterapkan pada setiap regressor di tiap iterasi senilai 0,05.
       random state bernilai 55 untuk mengontrol random number generator yang digunakan.
