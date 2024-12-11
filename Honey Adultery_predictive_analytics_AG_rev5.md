@@ -94,8 +94,7 @@ y (variable target): Purity
 <img width="346" alt="image-10" src="https://github.com/user-attachments/assets/6a8456b5-705a-4821-984e-2c640b100782">
 
 ## MODELLING
-- Dilakukan dataframe untuk analisis model
-Masing-masing model Development sbb :
+Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boosting Algoritm. Masing-masing model Development sbb :
 - KNN
     - Cara kerja:
       - Pada grafik yang bernilai A pada sumbu X ditandai 10 titik yang paling mendekati nilai A yang dipilih.
@@ -115,11 +114,9 @@ Masing-masing model Development sbb :
 
     - Parameter:
       
-- Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boosting Algoritm.
-Karena ketiganya termasuk modelling yang telah dipelajari di Dicoding selama ini. 
-- KKN menggunakan n_neighbors k = 10 tetangga dan metric Euclidean untuk mengukur jarak antara titik. 
 - Random Forest menggunakan n_estimator 50, dimana 50 itu adalah jumlah trees (pohon) di forest.
 - Boosting Algorithm menggunakan learning_rate=0.05 dimana 50 adalah bobot yang diterapkan pada setiap regressor di masing-masing proses iterasi boosting.
+
 Penulis sebenar nya ingin membuat modelling Feedforward Neural Network dengan Backpropagation berdasar pengalaman penulis meng-coding 
 di MATLAB dahulu dimana menghasilkan prediksi bagus untuk data fluktuatif sekalipun. Namun konsultasi dengan mentor, forum diskusi
 Dicoding, chatgpt, dsb nya untuk cara pengkodingan nya kurang berhasil. 
