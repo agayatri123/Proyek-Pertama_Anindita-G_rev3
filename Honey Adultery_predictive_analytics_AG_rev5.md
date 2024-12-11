@@ -106,9 +106,14 @@ Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boo
         Kedua Euclidean distance untuk mengukur jarak antara titik adalah bernilai default.
 - Random Forest
     - Cara kerja:
+      - 
 
     - Parameter:
-
+      - n_estimators atau jumlah pohon di forest yang digunakan adalah 50.
+        Max depth atau kedalaman atau panjang pohon (yg dapat splitting) senilai 16.
+        Random state yang digunakan untuk mengontrol random number generator bernilai 55.
+        Sedangkan n_jobs atau jumlah job (pekerjaan) yang digunakan secara paralel senilai 1. 
+    
 - Boosting Algoritm
     - Cara kerja:
 
