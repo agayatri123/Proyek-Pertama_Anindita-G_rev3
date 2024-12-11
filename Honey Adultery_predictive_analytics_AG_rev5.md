@@ -95,6 +95,22 @@ y (variable target): Purity
 
 ## MODELLING
 - Dilakukan dataframe untuk analisis model
+Masing-masing model Development sbb :
+- KNN
+    - Cara kerja:
+      
+    - Parameter:
+      
+- Random Forest
+    - Cara kerja:
+
+    - Parameter:
+
+- Boosting Algoritm
+    - Cara kerja:
+
+    - Parameter:
+      
 - Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boosting Algoritm.
 Karena ketiganya termasuk modelling yang telah dipelajari di Dicoding selama ini. 
 - KKN menggunakan n_neighbors k = 10 tetangga dan metric Euclidean untuk mengukur jarak antara titik. 
