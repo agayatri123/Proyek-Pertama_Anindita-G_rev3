@@ -106,8 +106,11 @@ Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boo
         Kedua Euclidean distance untuk mengukur jarak antara titik adalah bernilai default.
 - Random Forest
     - Cara kerja:
-      - 
-
+      - Model ini membagi menjadi cabang-cabang berdasarkan nilai fitur nya, bentuknya seperti percabangan pohon.
+        Random Forest secara acak menyeleksi subsets data dengan penggantian pada pelatihan tiap pohon.
+        Dimaksudkan untuk menghindari overfitting dan meningkatkan kemampuan generalisasi model.
+        kemudian melakukan prediksi value based pada tiap nilai rata-rata dari data yg dilatih di tiap percabangan.
+        Akhirnya didapat nilai prediksi dimana merupakan nilai rata-rata prediksi dari semua pohon.
     - Parameter:
       - n_estimators atau jumlah pohon di forest yang digunakan adalah 50.
         Max depth atau kedalaman atau panjang pohon (yg dapat splitting) senilai 16.
