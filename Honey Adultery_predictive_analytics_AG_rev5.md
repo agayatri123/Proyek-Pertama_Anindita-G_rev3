@@ -98,12 +98,13 @@ y (variable target): Purity
 Masing-masing model Development sbb :
 - KNN
     - Cara kerja:
-      - ###Pada grafik yang bernilai A pada sumbu X ditandai 10 titik yang paling mendekati nilai A yang dipilih.
+      - Pada grafik yang bernilai A pada sumbu X ditandai 10 titik yang paling mendekati nilai A yang dipilih.
       Nilai prediksi terbaik untuk A berdasarkan 10 titik tsb menghasilkan satu titik prediksi yg adl nilai rata-ratanya.
       Lalu dilakukan hal ini pada semua kemungkinan nilai masukan sehingga memperoleh nilai prediksi di beberapa tempat.
       Terakhir menghubungkan setiap prediksi ini sehingga memberi kita hasil regresi.
     - Parameter:
-      - ###Pertama adalah K yang digunakan bernilai 10 (jumlah tetangga). Kedua Euclidean distance untuk mengukur jarak antara titik adalah bernilai default.
+      - Pertama adalah K yang digunakan bernilai 10 (jumlah tetangga).
+        Kedua Euclidean distance untuk mengukur jarak antara titik adalah bernilai default.
 - Random Forest
     - Cara kerja:
 
