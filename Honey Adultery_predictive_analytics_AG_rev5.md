@@ -117,11 +117,12 @@ Lalu dilakukan Model Development With K-Nearest Neighbour, Random Forest dan Boo
         Random state yang digunakan untuk mengontrol random number generator bernilai 55.
         Sedangkan n_jobs atau jumlah job (pekerjaan) yang digunakan secara paralel senilai 1. 
     
-- Boosting Algoritm
+- Boosting Algoritm (AdaBoost or Adaptive Boosting)
     - Cara kerja:
-
+      - 
     - Parameter:
-      
+      - learning rate atau bobot yang diterapkan pada setiap regressor di tiap iterasi senilai 0,05.
+      random state bernilai 55 untuk mengontrol random number generator yang digunakan.
 - Random Forest menggunakan n_estimator 50, dimana 50 itu adalah jumlah trees (pohon) di forest.
 - Boosting Algorithm menggunakan learning_rate=0.05 dimana 50 adalah bobot yang diterapkan pada setiap regressor di masing-masing proses iterasi boosting.
 
